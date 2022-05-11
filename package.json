@@ -9,6 +9,7 @@
   "devDependencies": {
     "@tsconfig/node16": "^1.0.2",
     "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.32",
     "@types/restify": "^8.5.4",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
@@ -17,7 +18,9 @@
     "typescript": "^4.6.4"
   },
   "dependencies": {
+    "@types/mongoose": "^5.11.97",
     "dotenv": "^16.0.0",
+    "mongoose": "^6.3.3",
     "morgan": "^1.10.0",
     "restify": "^8.6.1",
     "restify-cors-middleware2": "^2.1.2",
